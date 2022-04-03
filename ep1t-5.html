@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio Puntuable EP1T-5</title>
+    <link rel="stylesheet" type="text/css" href="ep1t-5.css">
+</head>
+<body>
+<form method="POST" action="mailto:atolon@fundacionsafa.es" target="_blank">
+    <div id="capa1">
+        <img src="manzterra.jpg">
+        <h1 class="heading"> ¿Conoces el Acuerdo por el Clima firmado en París? </h1>
+    </div>
+    <div id="capa2">
+        <h1> ¡Con tu apoyo, lo lograremos! </h1>
+        <p><label for "nombre"><b>Nombre: </b><strong>*</strong></label></br><input id="opcion1" type="text"
+                                                                                    name="nombre"
+                                                                                    placeholder="Nombre y primer apellido"
+                                                                                    required></p></br>
+        <p><b>Sexo: </b><strong>* </strong><input type="radio" name="hombre" value="1"> Hombre
+            <input type="radio" name="mujer"> Mujer </p></br>
+        <p><label for "correo"><b>Dirección de correo: </b><strong>*</strong></label></br><input id="opcion1"
+                                                                                                 type="email"
+                                                                                                 name="correo"
+                                                                                                 placeholder="identificador@dominio.com"
+                                                                                                 required></p>
+        <p><label for "sitio_web"><b>Blog que recomiendas leer: </b></label></br><input id="opcion1" type="url"
+                                                                                        name="nombre"></p>
+        <p><label for "colaborar"><b>Puedo colaborar: </b></label></br>
+            <select name="colaborar" placeholder="Nombre y primer apellido" required>
+                <option value="" disabled selected hidden>---</option>
+                <option value="1">Difundiéndolo en redes sociales</option>
+                <option value="2">Impartiendo charlas sobe el tema</option>
+                <option value="3">Organizando concentraciones de apoyo</option>
+            </select></p>
+        <p><label for "detalles"><b>Mensaje que nos dejas: </b><strong>*</strong></label></br><textarea name="texto"
+                                                                                                        required></textarea>
+        </p>
+        <p><input type="submit" value="¡Envíalo!" class="boton"></p>
+    </div>
+</form>
+</body>
+</html>

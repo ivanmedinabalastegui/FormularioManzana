@@ -1,0 +1,79 @@
+body {
+    background-color: #BFD7C1;
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.heading {
+    text-align: justify;
+    color: #348A00
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#capa1 {
+    background-color: #FFCC33;
+    height: 140px;
+    width: 506px;
+    border-radius: 15px;
+    border: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#capa2 {
+    background-color: #87C489;
+    width: 506px;
+    border-radius: 15px;
+    border-spacing: 20px 20px;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px;
+    background: rgba(50, 50, 50, 0.5);
+    margin: 10px;
+    float: left;
+}
+
+.boton {
+    color: #BFD7C1;
+    background-color: #6EA070;
+    width: 485px;
+}
+
+textarea {
+    height: 150px;
+    width: 485px;
+    border-radius: 5px;
+}
+
+strong {
+    color: #E5E6E7;
+}
+
+#opcion1 {
+    width: 450px;
+    height: 1px;
+    border-spacing: 20px 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+select {
+    width: 490px;
+    height: 40px;
+    border-radius: 5px;
+}
